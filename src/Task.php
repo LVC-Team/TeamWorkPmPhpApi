@@ -47,7 +47,8 @@ class Task extends Model
             ],
             'responsible_party_id'     => false,
             'attachments'              => false,
-            'pending_file_attachments' => false
+            'pending_file_attachments' => false,
+            'tags' => false
         ];
         $this->parent = 'todo-item';
         $this->action = 'todo_items';
